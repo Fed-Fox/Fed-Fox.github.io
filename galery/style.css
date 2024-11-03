@@ -1,0 +1,124 @@
+div{
+	width: 320px;
+	height: 250px;
+	background-color: #91FFC9;
+	margin: 25px;
+	box-shadow: 11px 11px 0px 0px rgba(71, 188, 129, 0.5);
+	background-size: cover;
+	background-position: center;
+}
+
+div:hover{
+	transform: scale(1.13) rotate(-1deg);
+	transition: 0.2s;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #1DDA7B ;
+	font-family: "Poppins";
+}
+
+main{
+	background-color: #00FF80;
+	width: 80%;
+	margin: auto;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	margin: 0px 0px 120px 0px;
+	width: 100%;
+}
+
+.images1{
+	background-image: url("images/img1.jpg");
+}
+
+.images2{
+	background-image: url("images/img2.jpg");
+}
+
+.images3{
+	background-image: url("images/img3.jpg");
+}
+
+.images4{
+	background-image: url("images/img4.jpg");
+}
+
+.images5{
+	background-image: url("images/img5.jpg");
+}
+
+.images6{
+	background-image: url("images/img6.jpg");
+}
+
+.images7{
+	background-image: url("images/img7.jpg");
+}
+
+.images8{
+	background-image: url("images/img8.jpg");
+}
+
+.images9{
+	background-image: url("images/img9.jpg");
+}
+
+.images10{
+	background-image: url("images/img10.jpg");
+}
+
+.images11{
+	background-image: url("images/img11.jpg");
+}
+
+.images12{
+	background-image: url("images/img12.jpg");
+}
+
+.images13{
+	background-image: url("images/img13.jpg");
+}
+
+.images14{
+	background-image: url("images/img14.jpg");
+}
+
+.images15{
+	background-image: url("images/img15.jpg");
+}
+
+.images16{
+	background-image: url("images/img16.jpg");
+}
+
+.images17{
+	background-image: url("images/img17.jpg");
+}
+
+.images18{
+	background-image: url("images/img18.jpg");
+}
+
+.images19{
+	background-image: url("images/img19.jpg");
+}
+
+.images20{
+	background-image: url("images/img20.jpg");
+}
+ 
+   
