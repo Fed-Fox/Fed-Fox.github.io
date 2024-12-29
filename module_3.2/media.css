@@ -1,0 +1,287 @@
+@media (max-width:600px){
+	.links-nav{
+		flex-direction: column;
+	}
+
+	.logo i{
+	   font-size: 40px;
+    }
+
+    .nav{	
+		height: 270px;
+		background-color: white;
+		display: flex;
+		padding: 0 20px !important; 
+		width: 100% !important;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.search-inp{
+		display: none;
+	}
+
+	.link-nav{
+		text-decoration: none;
+		color: black;
+		display: inline-block;
+		font-size: 22px;
+		margin-left: 25px;
+		padding: 5px;
+	}
+
+	.links-nav{
+		display: flex;
+		justify-content: flex-end;
+		width: 75%;
+	}
+
+	.header-title{
+		font-size: 30px !important;
+		letter-spacing: 3px;
+		font-weight: 450;
+	}
+
+	.header-subtitle{
+		font-size: 16px;
+		letter-spacing: 2px;
+		margin-bottom: 20px;
+		opacity: 0.8;
+	}
+
+	.header-title-div{
+		z-index: 100;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.header-button-1{
+		background-color: rgba(0, 0, 0, 0.0);
+		color: white;
+		width: 200px;
+		height: 70px;
+		border: 3px solid white;
+		font-size: 20px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.header-button-2{
+		background-color: #00897b;
+		color: white;
+		width: 200px;
+		height: 70px;
+		font-size: 20px;	
+		border: none;
+		margin-top: 20px !important;
+		margin-left: 0 !important;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.main-first-div{
+		padding: 0px 30px 0px 30px;
+	}	
+
+	.main-first-all-card-div{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main-first-card-div{
+		width: 60%;
+		margin-bottom: 11%;
+	}
+
+	.main-first-card-icon{
+		font-size: 70px;
+		margin-left: 33% !important;
+		margin-bottom: 30px;
+	}
+
+	.main-second-div{
+		padding: 30px !important;
+		background-color: #e4fdf9;
+	}
+
+	.main-second-card-icon{
+		font-size: 70px;
+		margin-bottom: 10%;
+	}
+
+	.main-second-card-button{
+		margin-top: 30px;
+		width: 150px;
+		height: 60px;
+		background-color: transparent;
+		border: 3px solid black;
+		font-size: 20px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.main-third{
+		padding: 30px;
+	}
+
+	.main-third-div-text{
+		width: 70%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin: auto;
+		margin-bottom: 80px;
+	}
+
+	.main-third-div-buttons{
+		display: flex;
+		gap: 15px;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-bottom: 120px;
+	}
+
+	.main-third-button{
+		background-color: transparent;
+		color: black;
+		border: 3px solid #00897b;
+		font-size: 15px !important;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.main-third-button-1{
+		width: 80px;
+		height: 70px;
+	}
+
+	.main-third-button-2{
+		width: 160px;
+		height: 70px;
+	}
+
+	.main-third-button-3{
+		width: 140px;
+		height: 70px;
+	}
+
+	.main-third-button-4{
+		width: 130px;
+		height: 70px;
+	}
+
+	.main-third-div-card:after{
+		position: absolute;
+		background-color: transparent;
+		width: 100%;
+		height: 100%;
+		content: "";
+		margin-left: -50%;
+	}
+
+	.main-third-button-all{
+		background-color: #00897b;
+		color: white;
+		width: 200px;
+		height: 70px;
+		font-size: 20px;	
+		border: 3px solid #00897b;
+		margin-top: 100px;
+		margin-left: 10px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.main-third-div-card{
+		width: 300px !important;
+		height: 300px !important;
+		padding-top: 150px;
+		text-align: center;
+		position: relative;
+	}
+
+	.main-four-div{
+		padding: 10px;
+		background-image: url(images/four_background.png);
+	}
+
+	.main-four-contacts-div{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.main-four-contacts-div{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 40px;
+	}
+
+	.main-four-contact-image{
+		font-size: 100px;
+		color: white;
+		background-color: #3949ab;
+		border-radius: 100px;
+		border: 5px solid #3949ab;
+		margin-bottom: 30px;
+		padding: 10px;
+	}
+
+	.main-four-contact-text{
+		font-size: 20px;
+		letter-spacing: 2px;
+	}	
+
+	.main-four-contact-div{
+		text-align: center;
+		margin-top: 30px;
+		width: 80%;
+	}
+
+	.main-four-inputs-1-and-2{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+	.main-four-input-1{
+		width: 100%;	
+		border-radius: 10px;
+		height: 70px;
+		margin-bottom: 40px;
+		font-size: 21px;
+		padding-left: 10px;
+	}
+
+	.main-four-input-2{
+		width: 100%;
+		height: 300px;
+		border-radius: 10px;	
+		margin-bottom: 40px;
+		font-size: 21px;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+
+	.main-four-title{
+		letter-spacing: 3px;
+		margin-bottom: 20px;
+		margin-top: 30px;
+		font-size: 30px;
+	}
+
+	.main-four-inputs{
+		padding: 40px;
+	}
+
+	.footer-text{
+		font-size:15px;
+		font-weight: 700;
+		
+		letter-spacing: 1px;
+	}
+}
