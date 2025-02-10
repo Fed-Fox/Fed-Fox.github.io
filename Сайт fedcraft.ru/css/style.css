@@ -1,0 +1,214 @@
+/*HEADER*/
+.main-header{
+    position: fixed;
+    z-index: 50;
+    width: 80%;
+    height: 7%;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 30px;
+}
+
+.main-header-texts{
+    gap: 20px;
+    display: flex;
+}
+
+.main-header-img{
+    height: 100%;
+}
+
+.main-header-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.main-header-text{
+    font-size: 10px;
+    text-decoration: none;
+    color: #eaeaea;
+    transition: 0.3s;
+}
+
+.main-header-text:hover{
+    color: #b9d2b9;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(../materials/images/header-background.png);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+}
+
+.header-logo{
+    margin-top: 40px;
+    width: 50%;
+}
+
+.header-subtitle{
+    font-size: 13px;
+    color: #aeaeae;
+    margin-top: 10px;
+}
+
+.header-ip{
+    font-size: 17px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.header-ip:hover{
+    color: #b8db4f;
+}
+
+.header-ip-div{
+    display: flex;
+    align-items: end;
+    height: 40%;
+}
+
+/*MAIN*/
+main{
+    background-color: rgb(8, 8, 8);
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main-title{
+    color: white;
+    font-size: 30px;
+}
+
+.main-subtitle{
+    color: rgb(209, 209, 209);
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.main-donate-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.main-donate-cards-priv{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.main-donate-cards-other{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.main-donate-card{
+    background-image: url(../materials/images/donate-cards/bg-card.png);
+    background-size: cover;
+    width: 18%;
+    height: 112%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.main-donate-card img{
+    transition: 0.3s;
+}
+
+.main-donate-card-img{
+    width: 100%;
+}
+
+.main-donate-card-title{
+    font-size: 30px;
+    color: white;
+}
+
+.main-donate-card-price-div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.main-donate-card-price-real{
+    color: rgb(199, 195, 195);
+    font-size: 25px;
+}
+
+.main-donate-card-price-fake{
+    color: #585555;
+    text-decoration: line-through;
+    font-size: 25px;
+}
+
+.main-donate-card:hover{
+    transform: scale(1.07);
+}
+
+.main-donate-card:hover img{
+    transform: scale(1.07);
+}
+
+.main-donate-card-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #111111;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-text{
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+}
+
+.footer-a{
+    color: rgb(163, 163, 163);
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.footer-a:hover{
+    color: rgb(210, 210, 210);
+}
+
+.footer-img{
+    width: 4%;
+}
+
+.footer-first-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}

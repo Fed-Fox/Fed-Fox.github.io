@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Mine";
+    src: url("../materials/fonts/minecraft.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    size-adjust: 80%;
+}
+  
+@font-face {
+    font-family: "MineTen";
+    src: url("../materials/fonts/MinecraftTen.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    size-adjust: 250%;
+    white-space: nowrap;
+}
+
+.font-minecraft-ten{
+    font-family: "MineTen";
+}
+
+.font-minecraft{
+    font-family: "Mine";
+}
